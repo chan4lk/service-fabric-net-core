@@ -30,6 +30,7 @@
     <Content Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\FeatureManagement.Api\FeatureManagement.Api.csproj" />
     <ProjectReference Include="..\FeatureManagement.UI.Web\FeatureManagement.UI.Web.csproj" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.Common.targets" />
